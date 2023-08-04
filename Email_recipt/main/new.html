@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to ORGANIZATION</title>
+    <style>
+       body {
+      line-height: 1.5;
+      color: #333;
+      /* font-family: Public Sans, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
+      /* font-size: ; */
+    }
+    
+    .container {
+      /* background-color: #dfeeec; */
+      /* padding: 40px 20px; */
+      padding: 15px;
+      text-align: center;
+      max-width: 450px;
+      margin: 0 auto;
+      border-top:3px solid #3586c4;
+      border-left:2px solid #3586c4;
+      border-right:2px solid #ff9700;
+      border-bottom:3px solid #ff9700;
+      /* font-family:'Open Sans'; */
+      font-family:serif
+    } 
+    
+    .logo {
+      width: 40px;
+      height: 40px;
+      margin-top: 10px;
+
+    }
+
+    .btn {
+      height: 14px;
+      width: fit-content;
+      display: inline-block;
+    
+      color: #fff;
+      text-decoration: none;
+      padding: 5px 10px;
+      margin-left: -8px;
+      margin-top: 5px;
+      border-radius: 4px;
+      font-size: 11px;
+    }
+
+   
+
+    .link {
+     color: rgb(106, 106, 203);
+      text-decoration: none;
+      margin-top: -10px;
+
+    }
+
+    .footer {
+      margin-top: 20px;
+      color: #333;
+    }
+
+    .footer a {
+      color: rgb(106, 106, 203);
+      text-decoration: none;
+    }
+
+    .shadow {
+      width: fit-content;
+      text-align: center;
+      /* background-color: rgb(251, 248, 248);
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+      height: 430px;
+      margin-top: 5px;
+
+    }
+
+    .organization {
+      color: rgb(106, 106, 203);
+      margin-top: -10px;
+      margin-bottom: -15px;
+    }
+
+    .emaillogo {
+      width: 35px;
+      height: 32px;
+      padding-top: 5px;
+      margin-bottom: -18px;
+    }
+
+    .user {
+      margin-top: -1px;
+    }
+
+    .container .btndiv {
+      text-align: left;
+      margin-left: 5px;
+      display: flex;
+      gap: 20px;
+    }
+
+    .step2 {
+      text-align: left;
+      margin-left: 5px;
+    }
+
+    .container p {
+      font-size: 15px;
+    }
+    .upperdiv1 {
+            color: rgb(115, 113, 113);
+            display: flex;
+            font-size: 15px;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(231, 235, 239);
+            padding: 10px;
+            /* margin: 5px; */
+            /* padding: 15px; */
+        }
+
+        .karomanage-logo {
+            width: 40px;
+            height: 40px;
+            margin-bottom: 4px;
+        }
+    @media screen and (max-width: 450px) {
+            .container {
+                max-width: 100%;
+            }
+            .step1 {
+        margin-left: 0px;
+       
+      }
+
+      .code {
+        word-wrap: break-word;
+      }
+        }
+
+        @media screen and (max-width: 800px) {
+            .container {
+                max-width: 100%;
+            }
+            .shadow {
+        width: 100%;
+        background-color: rgb(251, 248, 248);
+        height: 420px;
+      }
+
+      .step2 {
+        word-wrap: break-word;
+      }
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+    
+    <div class="upperdiv1">
+      <img src="/karomanagelogo.png" alt="" class="karomanage-logo">
+      <h3 style="margin-left: 6px;color: black;">KaroManage</h3>
+  </div>
+      <!-- <h5 class="user">Welcome</h5> -->
+      <div >
+        <img src="email-icon-sign-symbol-logo-vector.jpg" alt="" class="emaillogo">
+        <h5>You are invited to join :-</h5>
+        <h5 class="organization">ORGANIZATIONNAME</h5>
+        <p style="text-align: left;padding: 10px;">You have been invited to join ORGANIZATIONNAME, a
+          powerful tool to
+          manage your tasks and projects efficiently.</p>
+        <h5 style="margin-top: -5px;margin-bottom: -4px;">Follow the below steps to join :-</h5>
+        <div style="display: flex;flex-direction: column;justify-content: center;padding: 10px;">
+          <div class="btndiv">
+            <p class="step1"> 1 . Click on </p>
+            <a href="https://new-ui-karo-manage.vercel.app/" class="btn"><button style="border-radius: 15px; background-color: rgb(231, 235, 239);color: black;height: 30px;font-weight:bold ;" >Create Account</button></a>
+          </div>
+          <div class="step2">
+            <p>2 . Sign up for organizationName . </p>
+            <p>3 . Click on "Invited Users."</p>
+  
+            <p>4 . Paste the URL give below and save :-</p>
+            <code class="code">${key}</code>
+          </div>
+  
+  
+          <p >If the "Create Account" button doesn't work, you can also click on the link below:-</p>
+          <p class="link"><a href="https://karomanage.com/invitation-token" style="color: rgb(106, 106, 203);">https://karomanage.com/invitation-token</a>
+          </p>
+        </div>
+      </div>
+  
+      <p  style="text-align: left;margin-top: -10px;">We look forward to having you on board!</p>
+      <div style="text-align: left;">
+        <div >Best Regards,</div>
+        <div>The ${organizationName ? organizationName : 'Organization'} Team</div>
+        <div>by ${sender ? sender : 'Admin'},</div>
+      </div>
+      <div class="footer">
+        <p>Have questions? Contact us at <a href="mailto:support@karomanage.com">support@karomanage.com</a></p>
+      </div>
+      <!-- <div style="height: 5px;background-color: orange;"></div> -->
+   </div> 
+</body>
+</html>
