@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body {
+            line-height: 1.3;
+      color: #333;
+      /* font-family: Public Sans, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
+      font-family:serif;
+   font-size: 16px;
+           
+        }
+
+        .email-container {
+            max-width: 450px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-top:3px solid blue;
+      border-left:2px solid blue;
+      border-right:2px solid orange;
+      border-bottom:3px solid orange;
+        }
+
+        .upperdiv1 {
+            color: rgb(115, 113, 113);
+            display: flex;
+            font-size: 16px;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(231, 235, 239);
+            padding: 10px;
+            margin: 5px;
+        }
+
+        .karomanage-logo {
+            width: 40px;
+            height: 40px;
+            margin-bottom: 4px;
+        }
+
+        .shadow {
+            box-shadow: rgba(55, 54, 54, 0.2) 0px 2px 8px 0px;
+            /* background-color: rgb(18, 18, 79); */
+            border-radius: 10px;
+            padding: 10px;
+            font-size: 15px;
+            color: black;
+            text-align: center;
+        }
+        .contact-info {
+            margin-top: 15px;
+        }
+        .contact-info p {
+            margin: 0;
+            font-size: 15px;
+        }
+        .contact-info a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .deleteduser{
+            font-size: 15px;
+        }
+        .font{
+        font-style: italic;
+        font-family: cursive;
+        font-size: 16px;
+        color: black;
+        }
+        @media screen and (max-width: 450px) {
+            .email-container {
+                max-width: 100%;
+            }
+        }
+
+        @media screen and (max-width: 800px) {
+            .email-container {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="email-container">
+        <div class="upperdiv1">
+            <img src="/karomanagelogo.png" alt="" class="karomanage-logo">
+            <h3 style="margin-left: 6px;color: black;">KaroManage</h3>
+        </div>
+        <div style="font-size: 16px;">
+            <p class="font">Dear ,</p>
+            <p style="margin-left: 10px;font-size: 16px;font-style: oblique;color: rgb(106, 106, 203);margin-top: -7px;"> [Coaching Center Admin],</p>
+            <p>We hope you are well. This is a gentle reminder that your payment for the [Course Name] is overdue.</p>
+        </div>
+        <div class="shadow">
+            <p class="deleteduser"><strong>Amount Due:</strong>  [Amount]</p>
+        <p class="deleteduser"><strong>Original Due Date: </strong>[Original Due Date]</p>
+            <p>To avoid any interruptions to your course access, please settle the payment as soon as possible.</p>
+
+            <p >If you have already made the payment, kindly disregard
+                this reminder.</p>
+                <hr style="width: 150px;color: blue;">
+
+        </div>
+        <div class="contact-info">
+            <p>For any concerns or assistance, contact us at <a href="mailto:support@email.com">support@email.com</a>.
+            </p>
+        </div>
+       
+        <div style="text-align: left; font-size: 15px;">
+            <p style="font-size: 15px;">Thank you for your prompt attention.</p>
+        <div>Best regards,</div>
+        <div>[Coaching Center Name] Team</div>
+    </div>
+    </div>
+</body>
+
+</html>

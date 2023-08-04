@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            line-height: 1.3;
+      color: #333;
+      /* font-family: Public Sans, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
+      font-family:serif
+ 
+           
+        }
+        .container {
+      background-color:white;
+      text-align: center;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      max-width: 500px;
+      margin: 0 auto;
+      border-top:3px solid #3586c4;
+      border-left:2px solid #3586c4;
+      border-right:2px solid #ff9700;
+      border-bottom:3px solid #ff9700;
+      padding: 10px;
+    }
+        h1 {
+            color: #0066cc;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        .user-info {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            text-align: left;
+            background-color: #f9f9f9;
+        }
+        .thank-you {
+            font-weight: bold;
+            text-align: center;
+            margin-top: 30px;
+        }
+        /* Orange and Blue Color Scheme */
+        .primary-bg {
+            background-color: #0066cc;
+            color: #fff;
+        }
+        .secondary-bg {
+            background-color: #ff9900;
+            color: #333;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0066cc;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .upperdiv1 {
+            color: rgb(115, 113, 113);
+            display: flex;
+            font-size: 16px;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(231, 235, 239);
+            padding: 10px;
+            margin: 5px;
+        }
+        .karomanage-logo {
+            width: 30px;
+            height: 30px;
+            margin-bottom: 4px;
+        }
+        .deleteduser{
+            font-size: 15px;
+        }
+        .lowerdiv div{
+   height: fit-content; 
+   text-align: left;
+   /* margin-top: 20px; */
+    }
+    .font{
+        font-style: italic;
+        font-family: cursive;
+        font-size: 16px;
+        color: black;
+        margin-left: 10px;
+    }
+    .font2{
+        font-size: 16px; 
+        font-family:serif;
+        /* padding: 7px; */
+        margin-left: 9px;
+    }
+        @media screen and (max-width: 450px) {
+            .container {
+                max-width: 100%;
+            }
+        }
+
+        @media screen and (max-width: 800px) {
+            .container {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="upperdiv1">
+        <img src="/karomanagelogo.png" alt="" class="karomanage-logo">
+        <h3 style="margin-left: 10px;">KaroManage</h3>
+    </div>
+    <div style="text-align: left;">
+    <p class="font">Dear ,</p>
+    <p style="margin-left: 10px;font-size: 20px;font-style: oblique;color: rgb(106, 106, 203);margin-top: -7px;"> [Coaching Center Admin],</p>
+    <p style="font-size:15px;">We want to inform you that the user deletion request for your {org name} on KaroManage has been successfully processed.</p>
+</div>
+    <div class="user-info">
+        <p><strong>Deleted User Information:</strong></p>
+        <p class="deleteduser"><strong>Name:</strong> [Deleted User's Name]</p>
+        <p class="deleteduser"><strong>Email:</strong> [Deleted User's Email Address]</p>
+        <p class="deleteduser"><strong>Role:</strong> [Deleted User's Previous Role]</p>
+        <p class="deleteduser"><strong>Permissions:</strong></p>
+        <ul>
+            <li class="deleteduser">[List of Permissions of the Deleted User]</li>
+            
+        </ul>
+    </div>
+    <p style="font-size: 15px;">Moving forward, the deleted user will no longer have access to your {org name} data or resources.</p>
+    <p style="font-size: 15px;">If you have any further questions or require assistance, please don't hesitate to contact us at <a href="mailto:support@email.com">support@email.com</a>.</p>
+    <p style="font-size: 15px;">Thank you for choosing KaroManage to manage your coaching center effectively.</p>
+    <div class="flex lowerdiv">
+        <div >
+            <p class="font2">Best regards, </p>
+            <p class="font2" style='font-size: 15px;'>KaroManage Team</p>
+           
+        </div>
+    
+       
+</div>
+</body>
+</html>
