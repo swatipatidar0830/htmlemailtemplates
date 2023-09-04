@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .receipt {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 790px;
+        height: fit-content;
+        border: 2px solid black;
+        border-top: 10px solid orange;
+    }
+
+    .img {
+        width: 200px;
+        height: 80px;
+    }
+
+    .date_input {
+        height: 20px;
+        border: none;
+
+        background-color: transparent;
+    }
+
+    .company {
+        width: 440px;
+        /* background-color: red; */
+        text-align: right;
+    }
+
+    .re_lable {
+        font-size: 20px;
+        margin-left: 30px;
+    }
+
+    .logo {
+        border-bottom: 10px solid orange;
+    }
+
+    .date_input {
+        height: 20px;
+        border: none;
+
+        background-color: transparent;
+    }
+
+    .info {
+        height: fit-content;
+        font-size: 18px;
+    }
+
+    .input1 {
+        height: 25px;
+        width: 250px;
+        border: none;
+        border-bottom: 2px solid black;
+        margin-left: 25px;
+    }
+
+    .input2 {
+        height: 25px;
+        width: 560px;
+        border: none;
+        border-bottom: 2px solid black;
+        margin-top: 30px;
+        margin-left: 20px;
+
+    }
+
+    .mode_of_payment {
+        margin-top: 25px;
+        margin-left: 15px;
+    }
+
+    .amount1 {
+        margin-left: 15px;
+    }
+
+    .balance_input {
+        height: 20px;
+        border: none;
+        width: 100px;
+    }
+
+    .info {
+        height: fit-content;
+        font-size: 18px;
+    }
+
+    .sign_div input {
+        height: 20px;
+        border: none;
+        border-bottom: 2px solid black;
+
+    }
+
+    .fee {
+        margin-left: 20px;
+        margin-top: 40px;
+        font-size: 18px;
+    }
+
+    .fee div {
+        margin-top: 7px;
+    }
+
+    .sign_div {
+        margin-left: 55px;
+        margin-top: 50px;
+        font-size: 18px;
+    }
+
+    .checkbox {
+        width: 20px;
+        height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .signture_div {
+        /* background-color: red; */
+        border-bottom: 2px solid black;
+        width: 150px;
+        height: 40px;
+    }
+    .lastdiv{
+        width: 790px;
+        display: flex;
+        font-size: 14px;
+        margin-top: 10px;
+       
+        /* margin-bottom: 10px; */
+        /* border-bottom: 15px solid orange; */
+    }
+    .address {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .email{
+    margin-top:10px;
+    margin-left:20px;
+    /* border-bottom: 5px solid blue; */
+
+    }
+    .last{
+        border-bottom: 4px solid blue;
+    }
+</style>
+
+<body>
+    <div class="receipt">
+        <div class="flex logo">
+            <div>
+                <img src="./karoCodelogo.png" alt="" class="img">
+                <div>
+                    <label for="" class="re_lable">Receipt No : </label><input type="number" name="" class="date_input"
+                        placeholder="677">
+                </div>
+            </div>
+            <div class="company">
+                <h1>Byte Billion</h1>
+                <div class="re_lable">Date : <input type="text" class="date_input"></div>
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="flex" style="margin-top: 10px;margin-left:15px;gap:15px;">
+                <div>
+                    <label for="Account Balance">Name : </label><input type="text" name="Ac_balance" class="input1">
+                </div>
+                <div>
+                    <label for="Account Balance">Mobile No : </label><input type="number" name="Ac_balance"
+                        class="input1">
+                </div>
+            </div>
+            <div class="amount1">
+                <label for="Account Balance">Amount in words : </label><input type="text" name="Ac_balance"
+                    class="input2">
+            </div>
+        </div>
+        <div class="flex">
+            <div class="fee">
+                <div>
+                    <label for=""> Total Fee : </label><input type="text" class="balance_input">
+                </div>
+                <div>
+                    <label for="">Paid Fee : </label><input type="text" class="balance_input">
+                </div>
+                <div>
+                    <label for="">Due Fee : </label><input type="text" class="balance_input">
+                </div>
+
+            </div>
+            <div class="sign_div" style="margin-top: 50px;">
+                <div class="flex">
+                    <input type="checkbox" name="" class="checkbox">
+                    <div>Cash</div>
+                </div>
+                <div class="flex">
+                    <input type="checkbox" name="" class="checkbox">
+                    <div>Online</div>
+                </div>
+            </div>
+            <div class="sign_div" style="margin-left: 250px;">
+               
+                <div class="signture_div"></div>
+                <p>Authorized Signature</p>
+                
+            </div>
+        </div>
+        <div class="lastdiv">
+            <div class="address">Address : 401,Sairam Ram Plaza,Rajiv Gandhi Indore(M.P)</div>
+            <div style="margin-top: 10px;margin-left:40px">Mobile_No : 7489651949</div>
+            <div class="email">Email : <span style="color: blue; margin-left: 5px;">letskarocode@gmail.com</span> </div>
+            
+        </div>
+        <div style="border-bottom: 10px solid orange;margin-top: 10px;"></div>
+        <div class="last"></div>
+    </div>
+</body>
+
+</html>
